@@ -1,13 +1,25 @@
 # Electronic-Store-Management-System
 
-📌 Project Overview
+Developed a relational database project for an Electronic Store to analyze sales performance, customer purchasing behavior, product revenue, inventory levels, employee performance, and product returns using PostgreSQL. Designed and populated a structured database consisting of six interconnected tables: Customers, Products, Employees, Orders, Order_Items, and Returns.
 
-The Electronic Store Sales Analysis project focuses on analyzing retail sales transactions using PostgreSQL to generate meaningful business insights. The project involves designing a relational database, managing transactional data, and writing SQL queries to evaluate revenue performance, customer purchasing behavior, product sales, inventory levels, employee performance, and product returns.
+Applied SQL techniques, including multi-table joins, aggregate functions, subqueries, Common Table Expressions (CTEs), conditional aggregation, CASE expressions, date functions, and window functions, to extract meaningful business insights from transactional data.
 
-The primary objective is to demonstrate practical SQL skills by solving real-world business problems through data extraction, aggregation, filtering, and advanced analytical queries.
+The analysis focused on calculating net revenue after discounts, identifying repeat and high-value customers, tracking monthly revenue and cumulative growth, ranking products by category, monitoring stock levels, analyzing returned orders, and evaluating employee order performance.
+
+The project demonstrates practical SQL skills in relational data analysis, revenue reporting, customer segmentation, and business intelligence, supporting data-driven decision-making for retail operations.
 ___________________________________________________________________________________________________________________________
 
-🎯 Business Objectives
+**Key Skills Demonstrated**
+
+- Database Management: Relational database design, primary keys, foreign keys, and referential integrity.
+- SQL Querying: Filtering, sorting, joins, grouping, aggregation, and HAVING clauses.
+- Advanced SQL: CTEs, subqueries, window functions, ranking, and running totals.
+- Sales Analytics: Net revenue calculation, monthly sales trends, and revenue contribution analysis.
+- Customer Analytics: Repeat purchase identification, customer spending analysis, and high-value customer identification.
+- Operational Analytics: Inventory classification, employee performance analysis, and return analysis.
+___________________________________________________________________________________________________________________________
+
+**🎯 Business Objectives**
 
 - Analyze delivered-order revenue and monthly sales performance. 
 - Identify high-value customers and customers with repeat purchases.
@@ -19,12 +31,12 @@ ________________________________________________________________________________
 - Measure customer contributions to total delivered net revenue.
 ___________________________________________________________________________________________________________________________
 
-🗄️ Database Schema
+**🗄️ Database Schema**
 
 The project consists of six relational tables:
 ___________________________________________________________________________________________________________________________
 
-Table	Description
+**Table	Description**
 
 - Customers	Stores customer details, location, email, and signup date.
 - Products	Contains product names, categories, prices, and stock quantities.
@@ -41,7 +53,7 @@ Table	Description
 - Primary keys and foreign keys establish relationships and maintain referential integrity between tables.
 ___________________________________________________________________________________________________________________________
 
-🛠️ Technologies Used
+**🛠️ Technologies Used**
 
 - Database: PostgreSQL
 - Query Language: SQL
@@ -49,7 +61,7 @@ ________________________________________________________________________________
 - Concepts: Relational Database Design, Data Aggregation, Business Analytics, and Advanced SQL
 ___________________________________________________________________________________________________________________________
 
-📊 SQL Concepts Implemented
+**📊 SQL Concepts Implemented**
 
 This project demonstrates the following SQL concepts:
 
@@ -67,7 +79,7 @@ This project demonstrates the following SQL concepts:
 - Revenue contribution percentages and customer ranking
 ___________________________________________________________________________________________________________________________
 
-💼 Business Questions Answered
+**💼 Business Questions Answered**
 
 The project addresses 15 business questions:
 
@@ -90,11 +102,11 @@ The project addresses 15 business questions:
   delivered net revenue.
 ___________________________________________________________________________________________________________________________
 
-💰 Revenue Calculation
+**💰 Revenue Calculation**
 
 Net revenue is calculated using the quantity sold, the sale price recorded at the time of the transaction, and the applicable discount.
 
-Formula:
+_Formula:_
 
 
 - Quantity * Unit_Price_at_Sale * (1 - Discount_Rate)
@@ -103,7 +115,7 @@ Formula:
 Revenue calculations use Unit_Price_at_Sale rather than the current product price to reflect the transaction price.
 ___________________________________________________________________________________________________________________________
 
-📈 Key Analytical Outcomes
+**📈 Key Analytical Outcomes**
 
 The queries are designed to generate insights into:
 
@@ -118,7 +130,7 @@ The queries are designed to generate insights into:
   operations.
 ___________________________________________________________________________________________________________________________
 
-📁 Project Structure
+**📁 Project Structure**
 
 A suggested repository structure is:
 
@@ -146,7 +158,7 @@ A suggested repository structure is:
 Note: This is a recommended structure. Adjust the filenames to match the files included in your repository.
 ___________________________________________________________________________________________________________________________
 
-📝 Assumptions and Limitations
+**📝 Assumptions and Limitations**
 
 - The Order_Status field represents the current status of each order.
 - Only orders currently marked Delivered contribute to delivered net revenue.
@@ -158,7 +170,8 @@ ________________________________________________________________________________
 - The analysis uses SQL queries; a separate visualization dashboard is not included unless added independently.
 ___________________________________________________________________________________________________________________________
 
-🎓 Skills Demonstrated
+**🎓 Skills Demonstrated**
+
 - PostgreSQL and advanced SQL querying
 - Relational database design and data integrity
 - Sales and revenue analysis
@@ -168,7 +181,7 @@ ________________________________________________________________________________
 - Business problem-solving using SQL
 ___________________________________________________________________________________________________________________________
 
-🔮 Future Enhancements
+**🔮 Future Enhancements**
 
 Potential improvements include:
 
@@ -180,15 +193,15 @@ Potential improvements include:
 - Automating recurring sales reports.
 ___________________________________________________________________________________________________________________________
 
-👤 Author
+**👤 Author**
 
 Lakshay Rathore
 
 Aspiring Data Analyst | PostgreSQL | SQL | Data Analytics
 ___________________________________________________________________________________________________________________________
 
-- GitHub: LakshayRathore-1125
-- LinkedIn: https://www.linkedin.com/in/lakshay-rathore-403782425 
+- **GitHub:** LakshayRathore-1125
+- **LinkedIn:** https://www.linkedin.com/in/lakshay-rathore-403782425 
 
 ⭐ If you find this project useful, feel free to star the repository.
 ___________________________________________________________________________________________________________________________
